@@ -7,9 +7,6 @@ contract MyToken {
     /* 3.2 Give your contract a name */
     string public name = "MyToken";
 
-    /* 3.2 Give your contract a name */
-    string name = "MyToken"
-
     /* Initializes contract with initial supply tokens to the creator of the contract */
     constructor (uint256 initialSupply) public {
         /* 3.3 Giving the creator all the coins */
